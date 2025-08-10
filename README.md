@@ -3,5 +3,3 @@
 Se actualizó `requirements.txt` para evitar conflictos de dependencias en entornos con Python 3.13 (por ejemplo Streamlit Cloud).
 - ahora usamos `rembg[cpu]==2.0.67` (compatible con Python 3.10–3.13), que instalará una versión de `onnxruntime` compatible para CPU.
 - elimina el pin conflictivo a `onnxruntime` que causaba el error.
-
-Si quieres que el requirements fije `onnxruntime>=1.22.1` explícitamente, dímelo y lo incluyo; normalmente `rembg[cpu]` se encarga de instalar la distribución correcta.
